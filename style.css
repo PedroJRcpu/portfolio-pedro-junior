@@ -1,0 +1,105 @@
+/* Estilo geral do site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #222;
+}
+
+/* Cabeçalho do site */
+header {
+  background: #1f2937;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Menu de navegação */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Botão de tema */
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Seções do portfólio */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Títulos das seções */
+h2 {
+  color: #1f2937;
+}
+
+/* Formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 120px;
+}
+
+/* Rodapé */
+footer {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Tema escuro ativado pelo JavaScript */
+.tema-escuro {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.tema-escuro section {
+  background: #1f2937;
+}
+
+.tema-escuro h2 {
+  color: #93c5fd;
+}
